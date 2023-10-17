@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BC34A"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/STYLE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ibraheem" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/STYLE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Enter Your Hobbise" />
+
+    <EditText
+        android:id="@+id/editHobbise"
+        style="@style/STYLE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btn"
+        style="@style/STYLE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save" />
+
+    <TextView
+        android:id="@+id/txtHobbise"
+        style="@style/STYLE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:visibility="gone" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-medium"
+            android:lineSpacingMultiplier="2"
+            android:padding="8dp"
+            android:text="@string/muhammad_a_arabic_c_570_8_june_632_ce_b_was_an_arab_religious_social_and_political_leader_and_the_founder_of_islam_c_according_to_islamic_doctrine_he_was_a_prophet_divinely_inspired_to_preach_and_confirm_the_monotheistic_teachings_of_adam_abraham_moses_jesus_and_other_prophets_2_3_4_he_is_believed_to_be_the_seal_of_the_prophets_within_islam_with_the_quran_as_well_as_his_teachings_and_practices_forming_the_basis_of_islamic_religious_belief_muhammad_was_born_in_approximately_570_ce_in_mecca_1_he_was_the_son_of_abdullah_ibn_abd_al_muttalib_and_amina_bint_wahb_his_father_abdullah_the_son_of_quraysh_tribal_leader_abd_al_muttalib_ibn_hashim_died_a_few_months_before_muhammad_s_birth_his_mother_amina_died_when_he_was_six_leaving_muhammad_an_orphan_5_he_was_raised_under_the_care_of_his_grandfather_abd_al_muttalib_and_paternal_uncle_abu_talib_6_in_later_years_he_would_periodically_seclude_himself_in_a_mountain_cave_named_hira_for_several_nights_of_prayer_when_he_was_40_circa_610_ce_muhammad_reported_being_visited_by_gabriel_in_the_cave_1_and_receiving_his_first_revelation_from_god_in_613_7_muhammad_started_preaching_these_revelations_publicly_8_proclaiming_that_quot_god_is_one_quot_that_complete_quot_submission_quot_isl_m_to_god_is_the_right_way_of_life_d_n_9_and_that_he_was_a_prophet_and_messenger_of_god_similar_to_the_other_prophets_in_islam_10_3_11"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
